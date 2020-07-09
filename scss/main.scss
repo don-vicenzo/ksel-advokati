@@ -1,0 +1,13 @@
+/* overide bootstrap-a */
+$theme-colors: (
+    "success" : #1c6e26,
+    "info" : #96989A,
+    "secondary" : #cacbcc
+);
+
+
+
+
+// Custom.scss
+// Option A: Include all of Bootstrap
+@import "../node_modules/bootstrap/scss/bootstrap";
