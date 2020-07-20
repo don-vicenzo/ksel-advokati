@@ -5,6 +5,7 @@ html {
 
 body {
     font-family: 'Proza Libre', sans-serif;
+    overflow-x: hidden;
 }
 
 *:focus { outline: 0 !important; }
@@ -20,7 +21,6 @@ h6 { font-size: 15px; }
 .hr-my2 { border-bottom: 1px solid #96989A; width: 248px;}
 .rounded-40 { border-radius: 40px; }
 .rounded-40-img { border-radius: 40px 40px 0 0; }
-.rounded-footer-40 { border-radius: 40px; }
 p {line-height: 1.5rem; font-size: 18px;}
 .p-SE { display: inline;  }
 .map-h { height: 550px; }
@@ -29,12 +29,14 @@ p {line-height: 1.5rem; font-size: 18px;}
 @media (min-width: 500px) and (max-width: 992px) {
     .nav-mobile {
         position: absolute;
-        margin-top: 177px; 
-        overflow: visible;
         z-index: 99;
-        width: 103.5% !important;
+        width: 104.5% !important;
         margin-left: -31px;
+        top: 120px;
     }
+
+    .rounded-footer-40 { border-radius: 20px 20px 0 0; }
+    .rounded-bottom-40 {border-radius: 0 0 20px 20px;}
 }
 
 /* XL devices */
@@ -42,7 +44,14 @@ p {line-height: 1.5rem; font-size: 18px;}
     .container-main { padding: 20px 80px; }
     .container-content { padding: 20px 135px !important;}
     h1,h2 { font-size: 80px; }
-    
+    /* .rounded-footer-40 { border-radius: 20px 20px 0 0; } */
+}
+
+@media (min-width: 1024px) and (max-width: 1199px) {
+    .rounded-footer-40 { border-radius: 40px 40px 0 0 !important; }
+}
+@media (min-width: 1200px) {
+    .rounded-footer-40 { border-radius: 40px !important; }
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -63,9 +72,24 @@ p {line-height: 1.5rem; font-size: 18px;}
         top: 13px; 
         height: 36%;
     }
-    .active-green { background-color: #1c6e26; border-radius: 40px; color: white; }
-    /* .active-green a { color: white !important; } */
-    /* .active-green a:hover {  cursor: pointer !important; } */
+
+    .navigacija2  { list-style:none; }
+    .navigacija2 {
+        display:inline-block; 
+        padding:0 7px; 
+        position:relative;
+    }
+    .navigacija2:not(:last-child)::after{
+        content:""; 
+        border: 0px solid #1c6e26 !important;
+        border-width: 1px 1px 0 0;
+        position:absolute; 
+        right:-3px; 
+        top: 13px; 
+        height: 36%;
+    }
+    
+    .active-green { background-color: #1c6e26; border-radius: 40px; color: white !important; }
 
     h1, h2 { font-size: 60px; }
     h3 { font-size: 35px; }
@@ -110,7 +134,7 @@ p {line-height: 1.5rem; font-size: 18px;}
     .font-footer { font-size: 12px; }
     .active-green { background-color: white; color: #1c6e26 !important; border: none; }
     .active-green a { background-color: white; color: #1c6e26 !important; border: none; }
-    p { font-size: 18px; line-height: 1.3rem; }
+    p { font-size: 16px; line-height: 1.25rem; }
     h4 { font-size: 22px; }
     .p-SE { display: inline ;  }
 
@@ -118,11 +142,10 @@ p {line-height: 1.5rem; font-size: 18px;}
 
     .nav-mobile {
         position: absolute;
-        margin-top: 190px; 
-        overflow: visible;
         z-index: 99;
         width: 110.5%;
-        margin-left: -25px;
+        margin-left: -23px;
+        top: 120px;
     }
 
     .input-my { 
@@ -138,6 +161,7 @@ p {line-height: 1.5rem; font-size: 18px;}
     h1 { font-size: 50px; }
     h2 { font-size: 35px; }
     .footer-text {font-size: 10px;}
+    .active-green { background-color: white; border-radius: 40px; color: #1c6e26 !important; }
 }
 
 /* For Iphone 5/SE */
@@ -156,14 +180,14 @@ p {line-height: 1.5rem; font-size: 18px;}
 
     .container-header { padding: 20px 5px; }
     .margin-top-iphone { margin-top: 20px; padding-right: 0px; }
+    .iph-se { display: block;}
 
     .nav-mobile {
         position: absolute;
-        margin-top: 190px; 
-        overflow: visible;
         z-index: 99;
         width: 111%;
         margin-left: -20px;
+        top: 120px;
     }
 
     .btn-specijalnost {
@@ -188,6 +212,13 @@ p {line-height: 1.5rem; font-size: 18px;}
     width: 10px;
     height: 10px;
     border-radius: 100%;
+    background-color: #96989A;
+    margin-right: 9px;
+}
+.carousel-indicators li.active {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
     background-color: #1c6e26;
     margin-right: 9px;
 }
@@ -202,29 +233,6 @@ text-decoration: inherit;
 }
 
 .hover-column:hover { cursor: pointer; }
-
-/* btn-collapse */
-/* .btn-mobile.btn.collapsed:before
-{
-    content:'f142' ;
-    display:block;
-    width:15px;
-}
-button.btn:before
-{
-    content:'X' ;
-    display:block;
-    width:15px;
-} */
-
-
-
-
-
-
-
-
-
 
 
 /* scroll ??? */
