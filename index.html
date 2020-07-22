@@ -22,8 +22,6 @@
 <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap" rel="stylesheet">
 
 <!-- Font Awesome -->
-<!-- <script src="https://kit.fontawesome.com/029a711cd1.js" crossorigin="anonymous"></script> -->
-<!-- <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"> -->
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
 
@@ -33,134 +31,117 @@
 <body>
 
     <!-- wrapper -->
-   <div class="wrapper px-1 px-lg-0">
+    <div class="wrapper px-1 px-lg-0">
 
-
-
-    <!-- main-container -->
-    <div class="container-fluid container-main">
-
-
-         
-    <!-- header -->
-    <!-- <div class="container-fluid"> -->
-        <header class="pl-lg-3 pr-lg-4 pr-xl-5 pl-xl-3 pt-2 pt-lg-0">
+        <!-- main-container -->
+        <div class="container-fluid container-main">
             
-            <!-- test-row -->
-            <div class="row no-gutters">
-                <div class="col-xl-1 d-xl-block d-none"></div>
-                <div class="col-xl-10 col-12">
+            <!-- header -->
+            <header class="pl-lg-3 pr-lg-4 pr-xl-5 pl-xl-3 pt-2 pt-lg-0">
+                
+                <!-- test-row -->
+                <div class="row no-gutters">
+                    <div class="col-xl-1 d-xl-block d-none"></div>
+                    <div class="col-xl-10 col-12">
 
-              
+                        <nav class="navbar navbar-expand-lg navbar-light bg-whit pt-5 pt-lg-4 pb-3 pb-lg-4 container-header pr-0">
 
-            <nav class="navbar navbar-expand-lg navbar-light bg-whit pt-5 pt-lg-4 pb-3 pb-lg-4 container-header pr-0">
+                            <!-- brand -->
+                            <a class="navbar-brand pt-lg-0 pl-lg-0 mr-0" href="index.html">
+                                <img src="images/navbrand.png" alt="brand" class="py-0 img img-fluid">
+                            </a>
+                            <!-- /.brand -->
 
-                <!-- brand -->
-                <a class="navbar-brand pt-lg-0 pl-lg-0 mr-0" href="index.html">
-                    <img src="images/navbrand.png" alt="brand" class="py-0 img img-fluid">
-                </a>
-                <!-- /.brand -->
+                            <!-- collapse button -->
+                            <button class="navbar-toggler border-0 px-0"  type="button" id="dugme" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="d-inline"><i class="fas fa-ellipsis-v text-success fa-2x x-btn"></i></span>
+                            </button>
+                            <!-- /.collapse button -->
+                        
+                            <!-- List -->
+                            <div class="collapse navbar-collapse ml-lg-auto navigacija pr-lg-0 pr-xl-0 bg-white pt-4 pt-lg-0 nav-mobile rounded-40" id="navbarSupportedContent">
 
-                <!-- collapse button -->
-                <button class="navbar-toggler border-0 px-0"  type="button" id="dugme" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="d-inline"><i class="fas fa-ellipsis-v text-success fa-2x x-btn"></i></span>
-                </button>
-                <!-- /.collapse button -->
-            
-                <!-- List -->
-                <div class="collapse navbar-collapse ml-lg-auto navigacija pr-lg-0 pr-xl-0 bg-white pt-4 pt-lg-0 nav-mobile rounded-40" id="navbarSupportedContent">
+                                <div class="d-flex d-lg-none align-items-center pb-2 pl-4">
+                                    <!-- select -->
+                                    <div class="box pl-2">
+                                        <select class="text-success border-0">
+                                            <option selected value="">SR</option>
+                                            <option value="">HR</option>
+                                            <option value="">EN</option>
+                                            <option value="">RU</option>
+                                        </select>
+                                    </div><!-- select -->
 
-                    <div class="d-flex d-lg-none align-items-center pb-2 pl-4">
-                        <!-- select -->
-                        <div class="box pl-2">
-                            <select class="text-success border-0">
-                                <option selected value="">SR</option>
-                                <option value="">HR</option>
-                                <option value="">EN</option>
-                                <option value="">RU</option>
-                            </select>
-                        </div><!-- select -->
-
-                        <!-- serach -->
-                        <span class="text-info w-100 pr-4 pl-2">
-                            <div class="input-group">
-                                <input class="form-control pl-3 bg-light shadow-none py-lg-2 py-4 rounded-40 border-0 input-my pl-lg-4" type="search" placeholder="Traži" id="search-input4">
-                                    <span class="input-group-append">
-                                        <button class="btn btn-white bg-light pt-2 pr-3 text-info rounded-40" type="button">
-                                                <i class="material-icons font-35">&#xe8b6;</i>
-                                        </button>
+                                    <!-- serach -->
+                                    <span class="text-info w-100 pr-4 pl-2">
+                                        <div class="input-group">
+                                            <input class="form-control pl-3 bg-light shadow-none py-lg-2 py-4 rounded-40 border-0 input-my pl-lg-4" type="search" placeholder="Traži" id="search-input4">
+                                                <span class="input-group-append">
+                                                    <button class="btn btn-white bg-light pt-2 pr-3 text-info rounded-40" type="button">
+                                                            <i class="material-icons font-35">&#xe8b6;</i>
+                                                    </button>
+                                                </span>
+                                        </div>
                                     </span>
-                            </div>
-                            <!-- <i class="material-icons" style="font-size: 35px;">&#xe8b6;</i> -->
-                        </span>
-                        <!-- /.serach -->
+                                    <!-- /.serach -->
+                                </div>
+
+                                <!-- <ul class="navbar-nav ml-lg-auto text-success align-items-lg-center font-15 font-weight-400 pl-4 pl-lg-0"> -->
+                                <ul class="navbar-nav ml-lg-auto text-success  align-items-lg-center font-weight-400 font-15 pl-4 pl-lg-0 pr-lg-3 pr-xl-2">
+                                    
+                                    <li class="nav-item pr-xl-1 pl-2">
+                                        <a class="nav-link text-success line-my text-nowrap pt-2 pb-0 pb-lg-2" href="nasa_specijalnost.html">Naša specijalnost</a>
+                                    </li>
+
+                                    <li class="nav-item px-xl-2 line-my pl-2">
+                                        <a class="nav-link text-success text-nowrap pt-2 pb-0 pb-lg-2" href="nas_tim.html">Naš tim</a>
+                                    </li>
+
+                                    <li class="nav-item px-xl-2 line-my pl-2">
+                                        <a class="nav-link text-success text-nowrap pt-2 pb-0 pb-lg-2" href="vesti.html">Vesti</a>
+                                    </li>
+
+                                    <li class="nav-item px-xl-2 pl-2">
+                                        <a class="nav-link text-success text-nowrap pt-2 pb-0 pb-lg-2" href="#">Karijera</a>
+                                    </li>
+
+                                    <li class="nav-item px-xl-2 pl-2">
+                                        <a class="nav-link text-success text-nowrap pt-2 pb-0 pb-lg-2" href="#">O nama</a>
+                                    </li>
+
+                                    <li class="nav-item px-xl-2 pl-2 pb-4 pb-lg-0">
+                                        <a class="nav-link text-success text-nowrap pt-2 pb-0 pb-lg-2" href="kontakt.html">Kontakt</a>
+                                    </li>
+                                    
+                                </ul>
+
+                                <div class="d-lg-flex d-none align-items-center">
+                                    <!-- serach -->
+                                    <span class="text-info pt-0">
+                                        <img src="images/search.png" alt="">
+                                    </span>
+                                    <!-- /.serach -->
+
+                                    <!-- select -->
+                                    <div class="box pl-xl-5">
+                                        <select class="text-success border-0">
+                                            <option selected value="">SR</option>
+                                            <option value="">HR</option>
+                                            <option value="">EN</option>
+                                            <option value="">RU</option>
+                                        </select>
+                                    </div><!-- select -->
+                                </div>
+
+                            </div><!-- /.list -->
+                        </nav>
                     </div>
-
-                    <!-- <ul class="navbar-nav ml-lg-auto text-success align-items-lg-center font-15 font-weight-400 pl-4 pl-lg-0"> -->
-                    <ul class="navbar-nav ml-lg-auto text-success  align-items-lg-center font-weight-400 font-15 pl-4 pl-lg-0 pr-lg-3 pr-xl-2">
-                        
-                        <li class="nav-item pr-xl-1 pl-2">
-                            <a class="nav-link text-success line-my text-nowrap pt-2 pb-0 pb-lg-2" href="nasa_specijalnost.html">Naša specijalnost</a>
-                        </li>
-
-                        <li class="nav-item px-xl-2 line-my pl-2">
-                            <a class="nav-link text-success text-nowrap pt-2 pb-0 pb-lg-2" href="nas_tim.html">Naš tim</a>
-                        </li>
-
-                        <li class="nav-item px-xl-2 line-my pl-2">
-                            <a class="nav-link text-success text-nowrap pt-2 pb-0 pb-lg-2" href="vesti.html">Vesti</a>
-                        </li>
-
-                        <li class="nav-item px-xl-2 pl-2">
-                        <a class="nav-link text-success text-nowrap pt-2 pb-0 pb-lg-2" href="#">Karijera</a>
-                        </li>
-
-                        <li class="nav-item px-xl-2 pl-2">
-                            <a class="nav-link text-success text-nowrap pt-2 pb-0 pb-lg-2" href="#">O nama</a>
-                            </li>
-
-                        <li class="nav-item px-xl-2 pl-2 pb-4 pb-lg-0">
-                            <a class="nav-link text-success text-nowrap pt-2 pb-0 pb-lg-2" href="kontakt.html">Kontakt</a>
-                        </li>
-                        
-                    </ul>
-
-                    <div class="d-lg-flex d-none align-items-center">
-                        <!-- serach -->
-                        <span class="text-info pt-0">
-                            <!-- <i class="material-icons" style="font-size: 35px;">&#xe8b6;</i> -->
-                            <img src="images/search.png" alt="">
-                        </span>
-                        <!-- /.serach -->
-
-                        <!-- select -->
-                        <div class="box pl-xl-5">
-                            <select class="text-success border-0">
-                                <option selected value="">SR</option>
-                                <option value="">HR</option>
-                                <option value="">EN</option>
-                                <option value="">RU</option>
-                            </select>
-                        </div><!-- select -->
-                    </div>
-
-                </div><!-- /.list -->
-
-                </nav>
-
-
-
+                    <div class="col-xl-1 d-xl-block d-none"></div>
                 </div>
-                <div class="col-xl-1 d-xl-block d-none"></div>
-            </div>
-            <!-- /.test-row -->
-
-        
-
+                <!-- /.test-row -->
 
             </header>
-         <!-- </div> -->
-        <!-- /.header -->
+            <!-- /.header -->
 
 
 
@@ -172,11 +153,11 @@
                     <!-- 1st row  -->
                     <div class="row justify-content-lg-around pt-lg-4">
                         <!-- left side -->
-                        <div class="col-xl-1 d-lg-block d-none pr-0 mr-0"></div>
-                        <div class="col-lg-6 col-xl-5 col-12 pl-lg-5 pl-3">
+                        <!-- <div class="col-xl-1 d-lg-block d-none pr-0 mr-0"></div> -->
+                        <div class="col-lg-6 offset-xl-1 col-xl-5 col-12 pl-lg-5 pl-3">
                             <h4 class="kalam letter-spacing">Zajednička advokatska kancelarija</h4>
                             <h4 class="kalam letter-spacing">Mujezinović Sorajić Baković</h4>
-                             <!-- vertical line -->
+                                <!-- vertical line -->
                             <img src="images/line1.png" class="pl-5 pt-2 pb-3" alt="">
                             <!-- /.vertical line -->
                             <h1>Profesionalno savetovanje<br>u Vašem<br>poslovanju</h1>
@@ -197,9 +178,9 @@
                                             <h6 class="text-left text-lg-left pl-0 pl-lg-0">Lorem Ipsum Dolor Sit Amet</h6>
                                         </div>
                                     </div>
-                                   <div class="pt-5 pl-3 d-lg-block d-none">
-                                     <img src="images/line_right_round_big.png" alt="">
-                                   </div>
+                                    <div class="pt-5 pl-3 d-lg-block d-none">
+                                        <img src="images/line_right_round_big.png" alt="">
+                                    </div>
                                 </div>
                             </div>
 
@@ -247,8 +228,8 @@
                                     </div>
                                 </div><!-- /.slider -->
                                 
-                              
-                           
+                                
+                            
                             </div>
                             <!-- /.rounded div -->
 
@@ -264,7 +245,7 @@
                             
 
                         </div><!-- /.col-lg-4 -->
-                       
+                        
                         <div class="col-xl-1 d-xl-block d-none"></div>
                         <!-- /.right-side -->
 
@@ -274,8 +255,8 @@
 
                     <!-- 2nd row -->
                     <div class="row py-lg-5 py-4">
-                        <div class="col-1 d-xl-block d-none"></div>
-                        <div class="col-11 pl-lg-5 text-right pr-0 text-lg-left pb-lg-5">
+                        <!-- <div class="col-1 d-xl-block d-none"></div> -->
+                        <div class="col-11 pl-lg-5 offset-xl-1 text-right pr-0 text-lg-left pb-lg-5">
                             <!-- button -->
                             <button class="btn btn-light text-success text-nowrap rounded-40 px-4 py-lg-2 btn-specijalnost" onclick="location.href='#nasaSpecijalnost';">Naša specijalnost</button>
                             <!-- /.button -->
@@ -308,21 +289,21 @@
                     <!-- row-white -->
                     <div class="row pb-3">
                         <!-- left side-white jedan cilj -->
-                        <div class="col-1 d-none d-xl-block"></div>
-                        <div class="col-7 col-lg-5 col-xl-4 text-center pl-lg-5 pl-3">
+                        <!-- <div class="col-1 d-none d-xl-block"></div> -->
+                        <div class="col-7 col-lg-5 col-xl-4 offset-xl-1 text-center pl-lg-5 pl-3">
                             <h2 class="text-success  text-nowrap">Jedan cilj</h2>
                             <p class="text-info px-xl-5 kalam">Lorem ipsum dolor sit amet,  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris <span class="d-none d-lg-inline"> nisi ut aliquip ex ea commodo consequat. </span> </p>
-                           <!-- vertical line -->
-                           <img src="images/line2.png" class="pl-5 ml-lg-1 pt-3 pb-3 d-none d-lg-inline" alt="">
+                            <!-- vertical line -->
+                            <img src="images/line2.png" class="pl-5 ml-lg-1 pt-3 pb-3 d-none d-lg-inline" alt="">
                         </div>
                         <!-- /.left side-white -->
                     
                         <div class="col-2 d-none d-lg-block"></div>
 
-                       
+                        
                         <!-- logo -->
                         <div class="col-5 col-lg-5 pl-lg-4 pl-xl-5">
-                             <div class="d-xl-inline d-none position-absolute" style="margin-top: -600px; margin-left: 40px;">
+                                <div class="d-xl-inline d-none position-absolute" style="margin-top: -600px; margin-left: 40px;">
                                 <img src="images/logo.png" class="img img-fluid" alt="">
                             </div>
                             <div class="d-xl-none">
@@ -333,9 +314,9 @@
 
                     <!-- search row -->
                     <div class="row pt-2 pb-5">
-                        <div class="col-1 d-none d-xl-block"></div>
-                        <div class="col-12 col-lg-12 col-xl-4 pl-lg-5 px-3">
-                         
+                        <!-- <div class="col-1 d-none d-xl-block"></div> -->
+                        <div class="col-12 col-lg-12 offset-xl-1 col-xl-4 pl-lg-5 px-3">
+                            
                             <div class="input-group">
                                 <input class="form-control pl-3 shadow-none py-lg-2 py-4 rounded-40 border-0 input-my pl-lg-4 pr-0" type="search" placeholder="Tražite nešto određeno?" id="search-input1">
                                     <span class="input-group-append">
@@ -344,7 +325,7 @@
                                         </button>
                                     </span>
                             </div>
-                           
+                            
                         </div>
                         <div class="col-xl-7 d-none d-xl-block"></div>
                     </div>
@@ -360,8 +341,8 @@
 
             <!-- nasa specijalnost -->
             <div class="row pt-lg-5 px-3">
-                <div class="col-1 d-none d-xl-block"></div>
-                <div class="col-12 col-lg-6 col-xl-5 text-lg-left pl-lg-5 pl-2">
+                <!-- <div class="col-1 d-none d-xl-block"></div> -->
+                <div class="col-12 col-lg-6 offset-xl-1 col-xl-5 text-lg-left pl-lg-5 pl-2">
                     <h2 class="text-success text-nowrap pb-lg-3" id="nasaSpecijalnost">Naša specijalnost</h2>
                     <p class="text-info kalam pb-lg-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                     <!-- button -->
@@ -400,21 +381,21 @@
                     <div class="">
                         <h5 class="text-success text-nowrap mb-1">Ksenija Sorajić Baković</h5>
                         <h6 class="text-info">Advokat</h6>
-                          <!-- line -->
-                          <img class="d-inline d-md-none position-absolute img img-fluid line-iphone2" src="images/line_right_round_bottom_mobile-Copy.png" alt="" style="margin-top: -125px; margin-left: 225px; z-index: 20;">
-                          <!-- /.line -->
+                            <!-- line -->
+                            <img class="d-inline d-md-none position-absolute img img-fluid line-iphone2" src="images/line_right_round_bottom_mobile-Copy.png" alt="" style="margin-top: -125px; margin-left: 225px; z-index: 20;">
+                            <!-- /.line -->
                     </div>
                 </div>
             </div>
-             <!-- /.ksenija -->
+            <!-- /.ksenija -->
 
 
 
-             <!-- vesti-green -->
+            <!-- vesti-green -->
             <div class="row bg-success text-white rounded-40 py-lg-5 py-4 px-2">
                 <!-- left side -->
-                <div class="col-1 d-lg-block d-none"></div>
-                <div class="col-lg-5 col-12 position-relative pl-lg-5 pt-lg-5">
+                <!-- <div class="col-1 d-lg-block d-none"></div> -->
+                <div class="col-lg-5 col-12 offset-lg-1 position-relative pl-lg-5 pt-lg-5">
                     <h2 class="d-inline">Vesti</h2>
                     <!-- line -->
                     <div class="d-inline position-absolute mt-lg-4 mt-3">
@@ -428,18 +409,18 @@
                     <!-- hr line-->
                     <div class="hr-my ml-auto"></div>
                     <a href="vest_detaljno.html" class="text-white link-unstyled"><p class="text-right pt-3 pb-lg-5">Saznaj više &#62;</p></a>
-                     <!-- button -->
-                     <div class="pt-lg-3 mt-lg-5 d-none d-lg-block">
-                         <button class="btn btn-light text-success rounded-40 px-4 py-lg-2 btn-specijalnost" onclick="location.href='vesti.html';">Prikaži sve vesti</button>
-                     </div>
-                     <!-- /.button -->
+                        <!-- button -->
+                        <div class="pt-lg-3 mt-lg-5 d-none d-lg-block">
+                            <button class="btn btn-light text-success rounded-40 px-4 py-lg-2 btn-specijalnost" onclick="location.href='vesti.html';">Prikaži sve vesti</button>
+                        </div>
+                        <!-- /.button -->
                 </div>
                 <!-- /.left side-->
 
 
                 <!-- right side -->
-                <div class="col-lg-1 d-lg-block d-none pr-0"></div>
-                <div class="col-lg-4 col-12 px-lg-5 pt-lg-5 pb-lg-5">
+                <!-- <div class="col-lg-1 d-lg-block d-none pr-0"></div> -->
+                <div class="col-lg-4 offset-lg-1 col-12 px-lg-5 pt-lg-5 pb-lg-5">
                     <div class="pl-lg-3">
                         <h3 class="pb-lg-3">Lorem ipsum <br> dolor sit amet</h3>
                         <p class="kalam">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -466,154 +447,144 @@
                 <!-- right side-->
 
             </div>
-             <!-- /.vesti-green -->
+                <!-- /.vesti-green -->
 
 
-             <!-- footer -->
-             <div class="row bg-light rounded-footer-40 pt-4 pt-lg-5 pb-lg-5 pb-3 px-1 px-lg-0">
-                <!-- left -->
-                <div class="col-xl-1 d-xl-block d-none"></div>
-                <!-- logo -->
-                <div class="col-xl-3 col-lg-3 col-7 pt-xl-5 pt-3 pl-lg-0 pr-xl-5 pr-lg-0 text-center">
-                    <div>
-                        <img src="images/footer_logo2.png" class="img img-fluid" alt="footer_logo">
-                    </div>
-                    <div class="text-center pt-lg-2">
-                        <p class="text-info kalam pt-1 font-footer mb-0">Zajednička advokatska kancelarija</p>
-                        <p class="text-info kalam pt-lg-1 pt-0 font-footer">Mujezinović Sorajić Baković</p>
-                    </div>
-                </div><!-- /.logo -->
-               
-                <div class="col-xl-2 d-xl-flex pb-xl-3 justify-content-center align-items-end d-none">
-                    <div class="">
-                        <a href="https://www.facebook.com" target="_blank" class="pr-2">
-                            <img src="images/fb_grey_pc.png" alt="fb-logo" >
-                        </a>
-                        <a href="https://www.linkedin.com" target="_blank" class="pr-2">
-                            <img src="images/linkedin_grey_pc.png" alt="fb-logo" >
-                        </a>
-                        <a href="https://www.instagram.com" target="_blank">
-                            <img src="images/insta_grey_pc.png" alt="fb-logo" >
-                        </a>
-                    </div>
+            <!-- footer -->
+            <div class="row bg-light rounded-footer-40 pt-4 pt-lg-5 pb-lg-5 pb-3 px-1 px-lg-0">
+            <!-- left -->
+            <!-- <div class="col-xl-1 d-xl-block d-none"></div> -->
+            <!-- logo -->
+            <div class="col-xl-3 offset-xl-1 col-lg-3 col-7 pt-xl-5 pt-3 pl-lg-0 pr-xl-5 pr-lg-0 text-center">
+                <div>
+                    <img src="images/footer_logo2.png" class="img img-fluid" alt="footer_logo">
                 </div>
-                <!-- /.left -->
+                <div class="text-center pt-lg-2">
+                    <p class="text-info kalam pt-1 font-footer mb-0">Zajednička advokatska kancelarija</p>
+                    <p class="text-info kalam pt-lg-1 pt-0 font-footer">Mujezinović Sorajić Baković</p>
+                </div>
+            </div><!-- /.logo -->
+            
+            <div class="col-xl-2 d-xl-flex pb-xl-3 justify-content-center align-items-end d-none">
+                <div class="">
+                    <a href="https://www.facebook.com" target="_blank" class="pr-2">
+                        <img src="images/fb_grey_pc.png" alt="fb-logo" >
+                    </a>
+                    <a href="https://www.linkedin.com" target="_blank" class="pr-2">
+                        <img src="images/linkedin_grey_pc.png" alt="fb-logo" >
+                    </a>
+                    <a href="https://www.instagram.com" target="_blank">
+                        <img src="images/insta_grey_pc.png" alt="fb-logo" >
+                    </a>
+                </div>
+            </div>
+            <!-- /.left -->
 
-                <!-- right -->
-               <div class="col-xl-6 col-lg-9 pl-0 pr-lg-0 col-5 pt-lg-4 pr-2 text-xl-center text-right pt-1">
-                    <!-- list -->
-                    <div class="navigacija px-lg-0">
-                        <ul class="d-lg-inline-block d-block position-relative text-success font-15 list-unstyled">
+            <!-- right -->
+            <div class="col-xl-6 col-lg-9 pl-0 pr-lg-0 col-5 pt-lg-4 pr-2 text-xl-center text-right pt-1">
+                <!-- list -->
+                <div class="navigacija px-lg-0">
+                    <ul class="d-lg-inline-block d-block position-relative text-success font-15 list-unstyled">
 
-                            <li class="nav-item p-0">
-                                <a class="nav-link text-success pr-lg-2 pl-0 text-nowrap pt-2 pb-1" href="nasa_specijalnost.html">Naša specijalnost</a>
+                        <li class="nav-item p-0">
+                            <a class="nav-link text-success pr-lg-2 pl-0 text-nowrap pt-2 pb-1" href="nasa_specijalnost.html">Naša specijalnost</a>
+                        </li>
+
+                        <li class="nav-item p-0">
+                            <a class="nav-link text-success px-lg-2 pt-0 pb-1 pt-lg-2 pr-SE" href="nas_tim.html">Naš tim</a>
+                        </li>
+
+                        <li class="nav-item p-0">
+                            <a class="nav-link text-success px-lg-2 pt-0 pb-1 pt-lg-2 pr-SE" href="vesti.html">Vesti</a>
+                        </li>
+
+                        <li class="nav-item p-0">
+                        <a class="nav-link text-success px-lg-2 pt-0 pb-1 pt-lg-2 pr-SE" href="#">Karijera</a>
+                        </li>
+
+                        <li class="nav-item p-0">
+                            <a class="nav-link text-success px-lg-2 pt-0 pb-1 pt-lg-2 pr-SE" href="#">O nama</a>
                             </li>
 
-                            <li class="nav-item p-0">
-                                <a class="nav-link text-success px-lg-2 pt-0 pb-1 pt-lg-2 pr-SE" href="nas_tim.html">Naš tim</a>
-                            </li>
+                        <li class="nav-item p-0">
+                            <a class="nav-link text-success pl-lg-2 pt-0 pt-lg-2 pr-SE" href="kontakt.html">Kontakt</a>
+                        </li>
+                        
+                    </ul>
+                    </div>
+                <!-- /.list -->
 
-                            <li class="nav-item p-0">
-                                <a class="nav-link text-success px-lg-2 pt-0 pb-1 pt-lg-2 pr-SE" href="vesti.html">Vesti</a>
-                            </li>
-
-                            <li class="nav-item p-0">
-                            <a class="nav-link text-success px-lg-2 pt-0 pb-1 pt-lg-2 pr-SE" href="#">Karijera</a>
-                            </li>
-
-                            <li class="nav-item p-0">
-                                <a class="nav-link text-success px-lg-2 pt-0 pb-1 pt-lg-2 pr-SE" href="#">O nama</a>
-                                </li>
-
-                            <li class="nav-item p-0">
-                                <a class="nav-link text-success pl-lg-2 pt-0 pt-lg-2 pr-SE" href="kontakt.html">Kontakt</a>
-                            </li>
-                            
-                        </ul>
-                     </div>
-                    <!-- /.list -->
-
-                    <!-- search -->
-                    <div class="row">
-                        <div class="col-lg-2 col-xl-1 d-lg-block d-none"></div>
-                        <div class="col-lg-10">
-                             <div class="d-lg-block d-none pl-lg-5 pl-xl-0">
-                                <div class="input-group px-xl-5">
-                                    <input class="form-control pl-3 shadow-none py-lg-2 rounded-40 border-0 input-my pl-lg-4" type="search" placeholder="Traži" id="search-input2">
-                                        <span class="input-group-append">
-                                            <button class="btn btn-white bg-white pt-1 pr-4 text-info rounded-40" type="button">
-                                                    <!-- <i class="material-icons font-35">&#xe8b6;</i> -->
-                                                    <img src="images/search.png" alt="">
-                                            </button>
-                                        </span>
-                                </div>
+                <!-- search -->
+                <div class="row">
+                    <!-- <div class="col-lg-2 col-xl-1 d-lg-block d-none"></div> -->
+                    <div class="col-lg-10 offset-lg-2 offset-xl-1">
+                            <div class="d-lg-block d-none pl-lg-5 pl-xl-0">
+                            <div class="input-group px-xl-5">
+                                <input class="form-control pl-3 shadow-none py-lg-2 rounded-40 border-0 input-my pl-lg-4" type="search" placeholder="Traži" id="search-input2">
+                                    <span class="input-group-append">
+                                        <button class="btn btn-white bg-white pt-1 pr-4 text-info rounded-40" type="button">
+                                                <!-- <i class="material-icons font-35">&#xe8b6;</i> -->
+                                                <img src="images/search.png" alt="">
+                                        </button>
+                                    </span>
                             </div>
                         </div>
-                        <div class="col-xl-1 d-none d-xl-block"></div>
                     </div>
-                    <!-- /.search -->
+                    <div class="col-xl-1 d-none d-xl-block"></div>
+                </div>
+                <!-- /.search -->
 
-                    <div class="text-left pl-xl-5 d-none d-xl-flex mt-5 pt-xl-1">
-                        <p class="text-info mt-5 pl-xl-5 mt-lg-4 mb-0 pt-lg-4">KSEL Advokati | Sva prava zadržana, 2020. Built by Singularity.is</p>
-                    </div>
-               </div>
-               <div class="col-xl-1 d-xl-block d-none"></div>
-                <!-- /.right -->
-             </div>
+                <div class="text-left pl-xl-5 d-none d-xl-flex mt-5 pt-xl-1">
+                    <p class="text-info mt-5 pl-xl-5 mt-lg-4 mb-0 pt-lg-4">KSEL Advokati | Sva prava zadržana, 2020. Built by Singularity.is</p>
+                </div>
+            </div>
+            <div class="col-xl-1 d-xl-block d-none"></div>
+            <!-- /.right -->
+            </div>
 
 
-             <div class="row bg-light pb-0 px-3 d-xl-none d-flex rounded-bottom-40">
-                <div class="col-3 d-lg-block d-none"></div>
-                <div class="col-12 d-lg-none">
-                    <div class="">
-                        <div class="input-group">
-                            <input class="form-control pl-3 shadow-none py-lg-2 py-4 rounded-40 border-0 input-my pl-lg-4" type="search" placeholder="Traži" id="search-input3">
-                                <span class="input-group-append">
-                                    <button class="btn btn-white bg-white pt-2 pb-0 pr-3 text-info rounded-40" type="button">
-                                            <i class="material-icons font-35">&#xe8b6;</i>
-                                    </button>
-                                </span>
-                        </div>
+            <div class="row bg-light pb-0 px-3 d-xl-none d-flex rounded-bottom-40">
+            <div class="col-3 d-lg-block d-none"></div>
+            <div class="col-12 d-lg-none">
+                <div class="">
+                    <div class="input-group">
+                        <input class="form-control pl-3 shadow-none py-lg-2 py-4 rounded-40 border-0 input-my pl-lg-4" type="search" placeholder="Traži" id="search-input3">
+                            <span class="input-group-append">
+                                <button class="btn btn-white bg-white pt-2 pb-0 pr-3 text-info rounded-40" type="button">
+                                        <i class="material-icons font-35">&#xe8b6;</i>
+                                </button>
+                            </span>
                     </div>
                 </div>
+            </div>
 
-                 <!-- social-icons --> 
-                 <div class="col-xl-3 d-flex pt-0 align-items-start justify-content-center pt-3">
-                    <div class="">
-                        <a href="https://www.facebook.com" target="_blank" class="pr-2">
-                            <img src="images/fb_grey.png" alt="fb-logo">
-                        </a>
-                        <a href="https://www.linkedin.com" target="_blank" class="pr-2">
-                            <img src="images/linkedin_grey.png" alt="fb-logo" >
-                        </a>
-                        <a href="https://www.instagram.com" target="_blank">
-                            <img src="images/insta_grey.png" alt="fb-logo" >
-                        </a>
-                    </div>
-                </div><!-- /.social-icons -->
-                <div class="col-xl-5 col-12 px-0 py-4">
-                    <!-- copyright -->
-                    <div class=" pl-lg-3 text-center">
-                    <p class="text-info footer-text">KSEL Advokati | Sva prava zadržana, 2020. Built by Singularity.is</p>
-                    </div>
-                    <!-- /.copyright -->
+                <!-- social-icons --> 
+                <div class="col-xl-3 d-flex pt-0 align-items-start justify-content-center pt-3">
+                <div class="">
+                    <a href="https://www.facebook.com" target="_blank" class="pr-2">
+                        <img src="images/fb_grey.png" alt="fb-logo">
+                    </a>
+                    <a href="https://www.linkedin.com" target="_blank" class="pr-2">
+                        <img src="images/linkedin_grey.png" alt="fb-logo" >
+                    </a>
+                    <a href="https://www.instagram.com" target="_blank">
+                        <img src="images/insta_grey.png" alt="fb-logo" >
+                    </a>
                 </div>
-                <!-- <div class="col-1 d-xl-block d-none"></div> -->
-             </div>
+            </div><!-- /.social-icons -->
+            <div class="col-xl-5 col-12 px-0 py-4">
+                <!-- copyright -->
+                <div class=" pl-lg-3 text-center">
+                <p class="text-info footer-text">KSEL Advokati | Sva prava zadržana, 2020. Built by Singularity.is</p>
+                </div>
+                <!-- /.copyright -->
+            </div>
+            </div>
+            <!-- /.footer -->
+        </div>
+        <!-- /.main-container -->
 
-
-             <!-- /.footer -->
-
-
-
-
-
-
-    </div>
-    <!-- /.main-container -->
-
-   </div><!-- /.wrapper -->
-
+    </div><!-- /.wrapper -->
 
 
 
